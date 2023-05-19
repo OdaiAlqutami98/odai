@@ -20,7 +20,7 @@ namespace Web_1.Controllers
         public string add(string Name, string Materials, int Marks, double Avarage)
         {
             try
-            {
+            { 
                 Student student = new Student();
                 student.NameStudent = "odai";
                 student.Materials = "arabic";
